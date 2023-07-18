@@ -8,6 +8,10 @@ const retornoPorOcup = require("../controllers/retornoPorOcup")
 // const editar = require("../controllers/editar")
 // const incluir = require("../controllers/incluir")
 
+route.get("/", (req, res) => {
+  res.send("Bem-vindo a API de personagens históricos. Use os endpoints para acessar as informações")
+})
+
 route.get("/personagens", retornoGeral.geral)
 
 route.get("/personagens/:id", retornoPorID.porID)

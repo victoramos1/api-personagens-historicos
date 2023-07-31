@@ -20,21 +20,38 @@
     <li>IDE utilizada: VS Code</li>
 </ul>
 
+<h2>Testar online</h2>
+
+<h3>Importante: A API fica hospedada em um serviço grátis, então fica hibernando e somente "acorda" após o primeiro uso. Demorará cerca de 2 minutos para sair da hibernação e responder corretamente a sua primeira consulta. Após isso, responderá normalmente.</h3>
+
+<h4>Endpoints:</h4>
+
+<p><code>https://api-personagens-historicos.onrender.com/personagens/</code> - Retorna todos personagens disponíveis na API<p>
+
+<p><code>https://api-personagens-historicos.onrender.com/personagens/:id</code> - Retorna um personagem específico na consulta, sendo necessário mudar <code>:id</code> por um número entre 1 e 12<p>
+
+<p><code>https://api-personagens-historicos.onrender.com/personagens/nacionalidade/:nacionalidade</code> - Retorna todos personagens de uma nacionalidade em específico, sendo necessário mudar <code>:nacionalidade</code> por Estados Unidos, Itália, Egito, Holanda, Inglaterra, Alemanha, França ou Áustria. Você pode digitar o nome do país da forma que quiser. Por exemplo: "França", "frança", "franca", "Franca". "Itália", "itália", "italia", "Italia". A forma que você optar não interfirá na busca<p>
+
+<p><code>https://api-personagens-historicos.onrender.com/personagens/ocupacao/:ocupacao</code> - Retorna todos personagens de uma ocupação em específico, sendo necessário mudar <code>:ocupacao</code> por Inventor, Governante, Pintor, Poeta e Compositor. Você pode digitar a ocupação da forma que quiser, a forma que optar não interfirá na busca<p>
+
+
 <h2>Inicialização</h2>
 
-<p>1 - Instale o Node.Js para conseguir rodar o React. Caso possua instalado, pule essa etapa</p>
+<p>1 - Instale o Node.js. Caso tenha instalado, pule essa etapa</p>
 
-<p>2 - No terminal do VS Code (ou na IDE que você estiver utilizando), utilize o comando "git clone https://github.com/victoramos1/buscador-filmes" (sem aspas) caso tenha o Git instalado no computador, ou faça o download do arquivo .zip diretamente do GitHub.</p>
+<p>2 - Instale o MySQL. Caso tenha instalado, pule essa etapa</p>
 
-<p>3 - Com a pasta aberta na IDE (o caminho mostrado no terminal precisa levar ao projeto no seu computador, como mostrado na imagem abaixo), execute o comando "npm install" (sem aspas) no terminal da IDE.</p>
-<img src="./src/img/caminho.png">
+<p>3 - Entre no arquivo ".env.example" e siga os passos</p>
 
-<p>4 - Gere uma chave para API do The Movie DataBase (TMDB) conforme o link https://developers.themoviedb.org/3/getting-started/introduction e armazene para usar no passo seguinte.</p>
+<p>4 - Com a pasta aberta na IDE (o caminho mostrado no terminal precisa levar ao projeto no seu computador, na altura do local onde se encontra o package.json), execute o comando <code>npm install</code> no terminal da IDE.</p>
 
-<p>5 - Entre no arquivo ".env.example" e siga os passos</p>
+<p>5 - Com o passo 4 executado, execute o comando <code>npx sequelize-cli db:migrate</code> no terminal
 
-<p>6 - No termina da IDE, rode o comando "npm start" (sem aspas) e aguarde uma aba no seu navegador abrir com o projeto em execução.</p>
+<p>6 - Execute o comando <code>npx sequelize-cli db:seed:all</code> no terminal
+
+<p>4 - Ainda no terminal da IDE, execute o comando <code>node main.js</code>. Se tudo der certo, o backend estará pronto para uso</p>
 
 <h2>Status do projeto</h2>
 
-<p>Versão 1.0.2 finalizada.</p>
+<p>Versão 1.0 finalizada.</p>
+

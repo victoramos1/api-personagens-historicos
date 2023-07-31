@@ -32,10 +32,10 @@
 
 <p><code>https://api-personagens-historicos.onrender.com/personagens/nacionalidade/:nacionalidade</code> - Retorna todos personagens de uma nacionalidade em específico, sendo necessário mudar <code>:nacionalidade</code> por Estados Unidos, Itália, Egito, Holanda, Inglaterra, Alemanha, França ou Áustria. Você pode digitar o nome do país da forma que quiser. Por exemplo: "França", "frança", "franca", "Franca". "Itália", "itália", "italia", "Italia". A forma que você optar não interfirá na busca<p>
 
-<p><code>https://api-personagens-historicos.onrender.com/personagens/ocupacao/:ocupacao</code> - Retorna todos personagens de uma ocupação em específico, sendo necessário mudar <code>:ocupacao</code> por Inventor, Governante, Pintor, Poeta e Compositor. Você pode digitar a ocupação da forma que quiser, a forma que optar não interfirá na busca<p>
+<p><code>https://api-personagens-historicos.onrender.com/personagens/ocupacao/:ocupacao</code> - Retorna todos personagens de uma ocupação em específico, sendo necessário mudar <code>:ocupacao</code> por Inventor, Governante, Pintor, Poeta ou Compositor. Você pode digitar a ocupação da forma que quiser, a forma que optar não interfirá na busca<p>
 
 
-<h2>Inicialização</h2>
+<h2>Testar localmente</h2>
 
 <p>1 - Instale o Node.js. Caso tenha instalado, pule essa etapa</p>
 

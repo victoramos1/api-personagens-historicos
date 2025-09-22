@@ -15,7 +15,7 @@
     <li>Node.JS</li>
     <li>Express.JS</li>
     <li>MySQL</li>
-    <li>Sequlize</li>
+    <li>Sequelize</li>
     <li>DotEnv</li>
     <li>IDE utilizada: VS Code</li>
 </ul>

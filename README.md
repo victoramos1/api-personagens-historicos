@@ -20,10 +20,6 @@
     <li>IDE utilizada: VS Code</li>
 </ul>
 
-<h2>Testar online</h2>
-
-<h3>Importante: A API fica hospedada em um serviço grátis, então fica hibernando e somente "acorda" após o primeiro uso. Demorará cerca de 2 minutos para sair da hibernação e responder corretamente a sua primeira consulta. Após isso, responderá normalmente.</h3>
-
 <h4>Endpoints:</h4>
 
 <p><code>https://api-personagens-historicos.onrender.com/personagens/</code> - Retorna todos personagens disponíveis na API<p>
